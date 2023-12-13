@@ -4,41 +4,76 @@
     background-color: $greyish;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    bottom: 0;
 
-    &__ico {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        background-color: white;
-        display: flex;
-        margin: auto;
-        position: relative;
-        margin-top: -20px;
-        
-
-        &--arrow {
-           margin: auto;
-        }
+    @media (min-width: 768px) {
+        height: 240px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 180px;
+    }
     
+
     &__products {
         display: flex;
         flex-direction: column;
-        align-content: center;
-        background-color: antiquewhite;
+        font-family: $mainFont;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 65px;
 
-        &--items {
-            color: white;
+        @media (min-width:768px) {
+            order: 1;
+            margin-top: 57px;
         }
 
+        & a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.6rem;
+        }
     }
-     
+
+
     &__socialMedia {
         display: flex;
         flex-direction: column;
+        text-decoration: none;
+
+        @media (min-width:768px) {
+            order: 2;
+            
+        }
+       
+       
+
+        & a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.6rem;
+            font-family: $mainFont;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 30px;
+        }
+        
     }
 
     &__copy {
-        color: white;
+        text-align: center;
+        margin-bottom: 36px;
+
+
+        & p {
+            font-family: $mainFont;
+            font-size: 1.4rem;
+            color: white;
+        }
+    
     }
-}
+
+
 }
