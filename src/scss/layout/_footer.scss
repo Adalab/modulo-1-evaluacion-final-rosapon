@@ -13,6 +13,7 @@
         flex-direction: row;
         justify-content: center;
         gap: 180px;
+        align-items: first baseline;
     }
     
 
@@ -27,7 +28,8 @@
 
         @media (min-width:768px) {
             order: 1;
-            margin-top: 57px;
+            margin-top: 40px;
+            text-align: left;  
         }
 
         & a {
@@ -41,11 +43,11 @@
     &__socialMedia {
         display: flex;
         flex-direction: column;
-        text-decoration: none;
+        text-align: center;
 
         @media (min-width:768px) {
             order: 2;
-            
+            text-align: left;
         }
        
        
@@ -56,7 +58,6 @@
             font-size: 1.6rem;
             font-family: $mainFont;
             text-transform: uppercase;
-            text-align: center;
             line-height: 30px;
         }
         
@@ -66,14 +67,15 @@
         text-align: center;
         margin-bottom: 36px;
 
+        @media (min-width: 678px) {
+            text-align: left;
+        }
+
 
         & p {
             font-family: $mainFont;
             font-size: 1.4rem;
             color: white;
         }
-    
     }
-
-
 }
