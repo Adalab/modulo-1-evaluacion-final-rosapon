@@ -1,0 +1,68 @@
+/* .hero__cover {
+   height: 100vh;
+   transform: translateX(-145px);
+   
+} */
+
+.hero {
+    background-image: url(/images/cover.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+   
+
+    &__title {
+        color: white;
+        font-size: 3rem;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        text-align: center;
+        margin-top: 520px;
+        margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 7rem;
+            line-height: 100px;
+            margin-top: 420px;   
+        }
+    }
+
+    &__subtitle {
+        color: white;
+        font-size: 1.6rem;
+        line-height: 19px;
+        margin: auto;
+        text-align: center;
+        margin-top: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 2.4rem;
+            line-height: 28px;
+            margin-top: 10px;
+        }
+        
+    }
+
+    &__ico {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 37.8px;
+        display: flex;
+       
+    }
+
+    &__ico--v {
+        margin: auto;
+    }
+    
+
+    
+}

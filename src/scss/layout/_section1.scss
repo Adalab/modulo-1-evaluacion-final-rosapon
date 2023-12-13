@@ -1,0 +1,17 @@
+.section1 {
+    margin-left: 13px;
+   
+
+    &__h3 {
+        font-size: 1.4rem;
+        color: $color-orange;
+        
+        line-height: 30px;
+    }
+
+    &__h2 {
+        font-size: 3rem;
+        color: black;
+        
+    }
+}

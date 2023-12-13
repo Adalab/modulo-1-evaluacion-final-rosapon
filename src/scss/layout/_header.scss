@@ -1,0 +1,14 @@
+.burgerHeader {
+    width: 34px;
+    height: 34px;
+    background-color: $color-orange;
+    display: flex;
+    position: fixed;
+
+    &__icon {
+        margin: auto;
+    }
+    
+    
+  
+}
