@@ -1,0 +1,44 @@
+.footer {
+    width: 100vw;
+    height: 465px;
+    background-color: $greyish;
+    display: flex;
+    flex-direction: column;
+
+    &__ico {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        margin: auto;
+        position: relative;
+        margin-top: -20px;
+        
+
+        &--arrow {
+           margin: auto;
+        }
+    
+    &__products {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-color: antiquewhite;
+
+        &--items {
+            color: white;
+        }
+
+    }
+     
+    &__socialMedia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__copy {
+        color: white;
+    }
+}
+}
