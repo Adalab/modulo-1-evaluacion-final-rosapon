@@ -1,3 +1,13 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
 .section2 {
     height: 624px;
     width: 100vw;
@@ -87,7 +97,8 @@
 
         &--arrow {
             margin: auto;
-            animation: alternate-reverse;
+            animation: rotate 1s ease-out infinite;
+
             
         }
     }
