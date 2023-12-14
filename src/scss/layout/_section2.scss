@@ -79,6 +79,7 @@
         display: flex;
         position: relative;
         transform: translateY(30px);
+        
 
         @media (min-width: 768px) {
             transform: translateY(50px)
@@ -86,6 +87,8 @@
 
         &--arrow {
             margin: auto;
+            animation: alternate-reverse;
+            
         }
     }
 }
