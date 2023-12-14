@@ -15,7 +15,7 @@
         gap: 180px;
         align-items: first baseline;
     }
-    
+
 
     &__products {
         display: flex;
@@ -32,7 +32,11 @@
             text-align: left;  
         }
 
-        & a {
+        @media (min-width:1200px){
+            margin-top: 50px;
+        }
+
+        &--item {
             text-decoration: none;
             color: white;
             font-size: 1.6rem;
@@ -49,10 +53,8 @@
             order: 2;
             text-align: left;
         }
-       
-       
 
-        & a {
+        &--item {
             text-decoration: none;
             color: white;
             font-size: 1.6rem;

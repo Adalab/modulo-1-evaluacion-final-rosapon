@@ -5,6 +5,11 @@
         margin-left: 37px;
         margin-right: 39px;
     }
+
+    @media (min-width: 1200px) {
+        margin-left: 275px;
+        margin-right: 136px;
+    }
    
 
     &__h3 {
@@ -18,6 +23,10 @@
         @media (min-width: 768px) {
             font-size: 1.5rem;
         } 
+
+        @media (min-width: 1200px){
+            font-size: 1.6rem;
+        }
     }
 
     &__h2 {
@@ -29,6 +38,10 @@
         @media (min-width: 768px) {
             font-size: 3.2rem;
         }
+
+        @media (min-width: 1200px){
+            line-height: 45px;
+        }
     }
 
     &__text {
@@ -37,6 +50,11 @@
         font-family: $mainFont;
         margin-top: 11px;
         color: $greyish;
+
+        @media (min-width: 1200px){
+            font-size: 2rem;
+        }
+        
     }
 
     &__button {
@@ -45,10 +63,9 @@
     background-color: white;
     border: solid 2px $color-orange;
     border-radius: 30px;
-    margin-top: 13px;
-} 
+    margin-top: 13px; 
 
-    &__button p {
+    &--text {
         color: $color-orange;
         font-family: $mainFont;
         font-weight: 500;
@@ -56,4 +73,10 @@
         text-align: center;
         line-height: 38px;
     }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 67px;
+        margin-top: 25px;
+    }
+} 
 }

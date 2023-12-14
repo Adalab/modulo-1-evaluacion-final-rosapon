@@ -8,6 +8,16 @@
     &__icon {
         margin: auto;
     }
+
+    @media (min-width: 768px){
+        width: 41px;
+        height: 41px;
+    }
+
+    @media (min-width: 1200px){
+        width: 45px;
+        height: 45px;
+    }
     
     
   
